@@ -43,7 +43,7 @@ fsStream.pipe(writerStream);
 
 
 console.log("Going to read directory");
-fs.readdir("C:\\MyWorkspace\\NodeJS",function(err, files){
+fs.readdir("C:\\MyWorkspace",function(err, files){
 if (err) {
 return console.error(err);
 }
